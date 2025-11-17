@@ -1,0 +1,170 @@
+/* ----------------------------------------------------------
+   GLOBAL LAYOUT
+---------------------------------------------------------- */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background: #f5f7fa;
+  color: #333;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+/* ----------------------------------------------------------
+   HEADER
+---------------------------------------------------------- */
+header {
+  background: #1e1e1e;
+  color: #fff;
+  padding: 18px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 26px;
+  color: #e74c3c;
+  font-weight: 700;
+}
+
+nav a {
+  color: #f1f1f1;
+  margin-right: 18px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #e74c3c;
+}
+
+
+/* ----------------------------------------------------------
+    BUTTONS
+---------------------------------------------------------- */
+.btn {
+  background: #e74c3c;
+  border: none;
+  padding: 8px 14px;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.btn:hover {
+  background: #c0392b;
+}
+
+.btn.secondary {
+  background: #555;
+}
+
+.btn.secondary:hover {
+  background: #333;
+}
+
+/* Delete button */
+.btn-delete {
+  background: #b22222;
+  padding: 6px 10px;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-delete:hover {
+  background: #8b1a1a;
+}
+
+
+/* ----------------------------------------------------------
+   INPUT FIELDS
+---------------------------------------------------------- */
+input, select, textarea {
+  padding: 10px;
+  font-size: 15px;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-top: 8px;
+  margin-bottom: 14px;
+}
+
+input:focus, textarea:focus {
+  border-color: #e74c3c;
+  outline: none;
+}
+
+
+/* ----------------------------------------------------------
+   ADMIN COURSE FORM (Top Black Box)
+---------------------------------------------------------- */
+.admin-box {
+  background: #111;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.admin-box input,
+.admin-box textarea {
+  background: #fff;
+}
+
+.admin-box h2 {
+  color: #eee;
+}
+
+
+/* ----------------------------------------------------------
+   COURSE CARDS (Professional Style)
+---------------------------------------------------------- */
+
+.course-card {
+  background: #fff;
+  margin: 12px 0;
+  padding: 18px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  border-left: 4px solid #e74c3c;
+}
+
+.course-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.course-meta {
+  color: #555;
+  font-size: 14px;
+}
+
+/* ----------------------------------------------------------
+   DASHBOARD TITLE
+---------------------------------------------------------- */
+.page-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #444;
+  margin-bottom: 15px;
+}
